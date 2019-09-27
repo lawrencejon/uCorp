@@ -9,10 +9,18 @@ font-size:14px;
 background-color:white;
 }
 
-img.center {
+img.center 
+{
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+img.floatright 
+{
+  float: right;
+  margin: 5px;
+
 }
 
 /*
