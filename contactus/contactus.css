@@ -19,7 +19,6 @@ font-weight: bold;
 font-size: 120%;
 margin-bottom: 10px; 
 font-family: Arial, Helvetica, Geneva, Swiss, sans-serif;
-color: orange;
 }
 
 h3 
@@ -29,7 +28,6 @@ font-weight: bold;
 font-size: 100%;
 margin-bottom: 10px; 
 font-family: Arial, Helvetica, Geneva, Swiss, sans-serif;
-color: orange;
 }
 
 h4{
@@ -40,12 +38,12 @@ font-size: 120%;
 color:#fff;
 }
 
-
+/*
 a 
 {
 color: #093
 }
-
+*/
 
 img
 {
@@ -69,28 +67,18 @@ height:62px;
 background:#fff url(header_background.png) no-repeat left;
 }
 
-nav 
-{
-display:block;
-float:left;
-width:165px;
-height: 250px;
-background:#fff url(nav_background.jpg) no-repeat top;
-}
-
-#catalog
-{
-margin-top: 200;
-margin-left: 30;
-}
-
 article 	
 {			
-padding:0;
-margin-left:170px;
-width:435px;
-background-color:#fff;
+padding:10;
+width:580;
+background-color:#000;
 display:block;
+color:white;
+}
+
+img.form{
+margin-left: 10;
+width: 500;
 }
 
 footer
@@ -108,7 +96,6 @@ background: #000 url(footer_background.jpg) no-repeat left;
 
 #address
 {
-margin-left: 10;
 float: left;
 }
 
